@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Roboto:wght@400;700&display=swap');
+
+body{
+    background: #1D202B;
+}
+
+h3{
+    font-weight: 900;
+}
+
+p{
+    font-weight: 400;
+}
+
+.contenedor{
+    display: flex;
+    width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+}
+
+.conciertos{
+ display: flex;
+
+
+}
+.seccion-conciertos{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.rockinrio{
+    background-image:url(./imag/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.FalconMastersConcert{
+    background-image: url(./imag/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.Coachella{
+    background-image: url(./imag/3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.UsFestival{
+    background-image: url(./imag/4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.AltomontSpeedway{
+    background-image: url(./imag/5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.RockInRio{
+    background-image: url(./imag/6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.contenido-conciertos{
+    min-height: 200px;
+    color: white;
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.bloque-cociertos{
+    
+    border-radius: 10px;
+    width:  calc(33.33% - 20px);
+  
+}
+
+.banner{
+    background-image: url(./imag/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	padding: 20px;
+
+
+}
+
+.lista-grupos-rock{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+ 
+}
+
+
+.btn{
+    background: #FFD600 ;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    border: none;  
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .contenedor{
+        flex-direction: column;
+    }
+   .seccion-conciertos{
+        width: 100%;
+
+    }
+    .banner{
+        width: 90%;
+        margin-top: 2rem;
+
+    }
+     .bloque-cociertos{
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 960px) {
+     .bloque-cociertos{
+        width: 45%;
+    }
+}
+
